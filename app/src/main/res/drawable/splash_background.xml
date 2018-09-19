@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
     <item>
         <shape>
             <gradient
-                android:angle="45"
-                android:startColor="@color/colorPrimary"
-                android:centerColor="#AAAAFF"
-                android:endColor="@color/colorPrimary"/>
+                    android:angle="45"
+                    android:startColor="@color/colorPrimary"
+                    android:centerColor="#AAAAFF"
+                    android:endColor="@color/colorPrimary"/>
         </shape>
     </item>
-</selector>
+    <item>
+        <bitmap android:src="@drawable/ic_launcher_round"
+                android:gravity="center"/>
+    </item>
+</layer-list>
