@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">ReceiptMe</string>
     <string name="splashLogoDesc">ReceiptMe Logo</string>
+    <string name="receiptTabName">Receipts</string>
+    <string name="warrentyTabName">Warrenties</string>
+    <string name="subscriptionTabName">Subscriptions</string>
+    <string name="calenderTabName">Calender</string>
 </resources>
